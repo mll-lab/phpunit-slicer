@@ -29,6 +29,8 @@ use PHPUnit\Runner\Version;
 use PHPUnit\TextUI\Configuration\Configuration;
 use PHPUnit\TextUI\Configuration\PhpHandler;
 use PHPUnit\TextUI\Configuration\Registry;
+use PHPUnit\TextUI\DefaultResultPrinter;
+use PHPUnit\TextUI\ResultPrinter;
 use PHPUnit\Util\Filesystem;
 use PHPUnit\Util\Log\JUnit;
 use PHPUnit\Util\Log\TeamCity;
